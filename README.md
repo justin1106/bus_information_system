@@ -1,1 +1,1 @@
-# bus_information_system
+# 버스 도착정보 서비스
