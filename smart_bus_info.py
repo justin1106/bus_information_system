@@ -68,25 +68,25 @@ def b_info(bus_id):
         if len(bus) == 1:
             bus.append([-1, item['arrmsg1']])
                 
-    response2 = requests.get(w_url)
-    if response2.status_code == 200:
-        htmlsource = response2.content
-        soup = BeautifulSoup(htmlsource, 'html.parser')
-        tem = soup.find(class_='temperature_text').find('strong').text[5:8]
-        # print(tem)
-        weather = soup.find(class_='weather before_slash').text
-        # print(weather)
+    # response2 = requests.get(w_url)
+    # if response2.status_code == 200:
+    #     htmlsource = response2.content
+    #     soup = BeautifulSoup(htmlsource, 'html.parser')
+    #     tem = soup.find(class_='temperature_text').find('strong').text[5:8]
+    #     # print(tem)
+    #     weather = soup.find(class_='weather before_slash').text
+    #     # print(weather)
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
         "Accept-Encoding": "*",
         "Connection": "keep-alive"
     }
-    response_n = requests.get(n_url, headers=headers)
-    if response_n.status_code == 200:
-        html_n = response_n.content
-        soup_n = BeautifulSoup(html_n, 'html.parser')
-        news = soup_n.find(class_='cluster_item').find(class_='cluster_text_headline').text
+    # response_n = requests.get(n_url, headers=headers)
+    # if response_n.status_code == 200:
+    #     html_n = response_n.content
+    #     soup_n = BeautifulSoup(html_n, 'html.parser')
+    #     news = soup_n.find(class_='cluster_item').find(class_='cluster_text_headline').text
 
 b_info(b_id)
 Running = True
