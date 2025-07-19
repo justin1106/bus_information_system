@@ -46,15 +46,7 @@
     python smart_bus_info.py
     ```
 
-## 디렉토리 구조
-smart-bus-info/
-├── smart_bus_info.py # 메인 실행 파일
-├── config.txt # 지역명, 정류장 이름, ID 정보를 담은 설정 파일
-├── config.py # API 키를 담은 파일 (SERVICE_KEY)
-├── bus_blue.png # 버스 아이콘 이미지
-├── font/
-│ └── NanumGothic.ttf # 한글 폰트 파일
-└── README.md # 설명 파일
+
 
 
 ## 주의 사항
