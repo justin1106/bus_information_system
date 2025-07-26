@@ -62,7 +62,7 @@ smart-bus-info/
 ## 주의 사항
 
 - 날씨 및 뉴스 관련 코드는 현재 에러로 인해 주석 처리되어 있으며, 추후 수정 예정
-- API 키는 공공데이터포털에서 [서울시 버스 도착 정보 API](https://www.data.go.kr/data/15000565/openapi.do) 신청 후 사용 가능
+- API 키는 공공데이터포털에서 [서울시 버스 도착 정보 API](https://www.data.go.kr/data/15000314/openapi.do) 신청 후 사용 가능
 - 한글 폰트 `NanumGothic.ttf`는 `font/` 폴더에 있어야 함
 
 ## 실행 화면
