@@ -65,7 +65,7 @@ smart-bus-info/
 - API 키는 공공데이터포털에서 [서울시 버스 도착 정보 API](https://www.data.go.kr/data/15000565/openapi.do) 신청 후 사용 가능
 - 한글 폰트 `NanumGothic.ttf`는 `font/` 폴더에 있어야 함
 
-## 실행 화변
+## 실행 화면
 
 <img width="70%" height="70%" alt="Image" src="https://github.com/user-attachments/assets/8c656097-95fb-4518-aa5e-95afcadd0ff2" />
 
